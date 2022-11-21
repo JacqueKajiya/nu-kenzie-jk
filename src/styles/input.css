@@ -1,0 +1,22 @@
+.base-input{
+    height: 3rem;
+    color: var(--grey-4);
+    border-radius: var(--border-radius-1);
+}
+
+.base-input::placeholder{
+    color: #868E96;
+    padding: .5rem;
+}
+
+.form-input{
+    width: 20.3125rem;
+}
+
+.small-form-input{
+    width: 9.375rem;
+}
+
+.small-form-input2{
+    width: 8rem;
+}

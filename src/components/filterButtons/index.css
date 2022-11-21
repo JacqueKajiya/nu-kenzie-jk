@@ -1,0 +1,16 @@
+.transaction-side{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 2rem;
+}
+
+.transaction-side h2{
+    color: #FFF;
+    font-size: var(--font-size-4);
+}
+
+.filter-btns{
+    display: flex;
+    gap: 0.8rem;
+}

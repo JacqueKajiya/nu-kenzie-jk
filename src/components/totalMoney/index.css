@@ -1,0 +1,16 @@
+.total-value-box{
+    color: #FFF;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-value-box h3{
+    font-weight: 800;
+}
+
+.total-value-box p{
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: var(--font-size-4);
+}

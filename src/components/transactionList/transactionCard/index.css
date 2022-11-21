@@ -1,0 +1,16 @@
+.transaction-card{
+    color: var(--grey-2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.8rem;
+}
+
+.transaction-card h3{
+    margin-bottom: 0.5rem;
+}
+
+.card-value{
+    display: flex;
+    gap: 4.5rem;
+}
