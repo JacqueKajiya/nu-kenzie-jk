@@ -2,9 +2,10 @@ import { useState } from "react"
 import './index.css';
 import '../../styles/input.css'
 
-export const Form = ({ transactionType, addTransaction}) => {
-
+export const Form = ({ transactionType, addTransaction, uuid }) => {
+   
     const [formData, setFormData] = useState({
+        id: "",
         description: "",
         value: "",
         type: transactionType[0].value,
@@ -14,6 +15,7 @@ export const Form = ({ transactionType, addTransaction}) => {
         formEvent.preventDefault()
         addTransaction(formData)
         setFormData({
+            id: uuid,
             description:"",
             value: "",
             type: transactionType[0].value,

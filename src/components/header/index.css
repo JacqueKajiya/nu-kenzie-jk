@@ -13,3 +13,9 @@ header img{
     height: 1.25rem;
 }
 
+@media (max-width: 640px){
+    header{
+        width: 100%;
+        max-width: 640px;
+    }
+}

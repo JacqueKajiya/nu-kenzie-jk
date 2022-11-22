@@ -1,4 +1,4 @@
-import { Card } from "./transactionCard"
+import { Card } from "./TransactionCard"
 
 export const TransactionList = ({ listTransactions, removeTransaction }) => {
 

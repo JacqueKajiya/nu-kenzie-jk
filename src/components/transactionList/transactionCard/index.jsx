@@ -12,7 +12,7 @@ export const Card = ({ transaction, removeTransaction }) => {
 
             <div className='card-value'>
                 <p>R$ {transaction.value}</p>
-                <button className="trash-btn" onClick={() => removeTransaction(transaction.description)}>
+                <button className="trash-btn" onClick={() => removeTransaction(transaction.id)}>
                     <img src="./img/ButtonTrash-Light.png" alt="trash-btn" />
                 </button>
             </div>

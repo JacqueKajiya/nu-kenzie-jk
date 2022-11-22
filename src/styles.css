@@ -45,5 +45,27 @@ body{
 
 .main-finance-container{
     display: flex;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 640px){
+
+    .main-container{
+        width: 100%;
+        max-width: 640px;
+    }
+
+    .main-finance-container{
+        width: 100%;
+        max-width: 640px;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .transition-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
 }
