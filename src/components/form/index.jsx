@@ -24,8 +24,9 @@ export const Form = ({ transactionType, addTransaction, uuid }) => {
 
     return(
         <form onSubmit={handleSubmit}>
+        
             <label htmlFor="text">Descrição</label>
-            <input className="base-input form-input" required type="text" placeholder="Digite aqui sua descrição" value = {formData.description} onChange={(e)=> setFormData({...formData, description: e.target.value})}/>
+            <input className="base-input" required type="text" placeholder="Digite aqui sua descrição" value = {formData.description} onChange={(e)=> setFormData({...formData, description: e.target.value})}/>
 
         <div className = "value-box">
 

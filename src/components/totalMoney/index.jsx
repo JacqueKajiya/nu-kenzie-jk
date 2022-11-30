@@ -10,7 +10,15 @@ export const TotalMoney = ({ listTransactions}) => {
             </div>
 
             <div>
-                <p>R$ {listTransactions.reduce((acc, transaction) => acc + Number(transaction.value), 0)}</p>
+
+                <p>R$ {listTransactions.reduce((acc, transaction) =>
+                    transaction.type === "saída" ? (
+                        acc - Number(transaction.value)
+                    ):(
+                        acc + Number(transaction.value)
+                    ),0 )
+                }
+                </p>
             </div>
         </div>
     )

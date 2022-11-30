@@ -14,3 +14,9 @@
     display: flex;
     gap: 4.5rem;
 }
+
+@media (max-width: 370px){
+    .transaction-card{
+        flex-direction: row;
+    }
+}

@@ -14,3 +14,21 @@
     font-weight: 700;
     font-size: var(--font-size-4);
 }
+
+@media (max-width: 720px){
+    .total-value-box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px){
+    .total-value-box{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    p{
+        margin-top: .4rem;
+    }
+}

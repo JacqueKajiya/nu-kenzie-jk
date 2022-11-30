@@ -36,7 +36,7 @@ const uuidv = () => Math.round(Math.random() * 2000)
       id: uuidv(),
       description: "Conta de luz",
       type: "saída",
-      value: -150,
+      value: 150,
     }
   ])
 
@@ -65,8 +65,7 @@ const uuidv = () => Math.round(Math.random() * 2000)
                   transactionType = {transactionType}
                   addTransaction = {addTransaction}
                 />
-                <TotalMoney 
-                listTransactions = {listTransactions} />
+                <TotalMoney listTransactions = {listTransactions} />
             </div>
 
           {listTransactions.length === 0 ? (
@@ -81,9 +80,9 @@ const uuidv = () => Math.round(Math.random() * 2000)
           ):(
               <div className ="transition-menu">
                   <div>
-                  <FilterBtns 
-                  setFilter = {setFilter} 
-                  transactionType = {transactionType}/>
+                    <FilterBtns 
+                    setFilter = {setFilter} 
+                    transactionType = {transactionType}/>
                   </div>
               <div>
                   <TransactionList 

@@ -1,7 +1,8 @@
 .home-container{
     width: 100%;
-    max-width: 100%;
-    height: 100%;
+    max-width: 1200px;
+    max-height: 100%;
+    min-height: 100%;
     margin: auto;
     padding: 6.25rem;
     display: flex;
@@ -36,15 +37,33 @@ figure{
     width: 50%;
 }
 
-@media (max-width: 640px){
+img{
+    width: 100%;
+    height:auto;
+}
 
+@media (max-width: 800px){
     .home-container{
         flex-direction: column;
         width: 100%;
-        max-width: 550px;
+        max-width: 900px;
         height: 100%;
         margin: 0 auto;
         padding: 0 auto;
+    }
+
+    figure{
+        display: none;
+    }
+
+}
+
+@media (max-width: 785px){
+
+    .home-container{
+        width: 100%;
+        max-width: 550px;
+        height: 100%;
     }
 
     .description-home{
@@ -52,8 +71,5 @@ figure{
         max-width: 640px;
     }
 
-    figure{
-        display: none;
-    }
-
+  
 }

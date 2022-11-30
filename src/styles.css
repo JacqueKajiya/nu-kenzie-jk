@@ -38,17 +38,26 @@ body{
 }
 
 .main-container{
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
-    padding: 0 6.25rem;
+    padding: 0 auto;
 }
 
 .main-finance-container{
+    width: 100%;
+    max-width: 1200px;
     display: flex;
+    justify-content: space-between;
     margin-top: 3rem;
+    padding: 0 auto;
 }
 
-@media (max-width: 640px){
+.transition-menu{
+    width: 50%;
+}
+
+@media (max-width: 720px){
 
     .main-container{
         width: 100%;
@@ -57,15 +66,16 @@ body{
 
     .main-finance-container{
         width: 100%;
-        max-width: 640px;
         flex-direction: column;
         gap: 1.25rem;
     }
 
     .transition-menu{
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 3rem;
+        padding: 0 1rem;
     }
 
 }
