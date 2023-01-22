@@ -1,12 +1,12 @@
 .base-input{
     height: 3rem;
     color: var(--grey-4);
+    padding: .7rem;
     border-radius: var(--border-radius-1);
 }
 
 .base-input::placeholder{
     color: #868E96;
-    padding: .5rem;
 }
 
 .small-form-input{

@@ -16,6 +16,11 @@
     gap: 0.8rem;
 }
 
+.default-btn{
+    background-color: var(--grey-3);
+    color: #FFF;
+}
+
 @media (max-width: 720px){
     .transaction-side{
         width: 100%;
