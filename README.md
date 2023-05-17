@@ -1,4 +1,4 @@
-# <h1 align="center"> Projeto Habitum </h1>
+# <h1 align="center"> NuKenzie </h1>
 
 # :pencil: Descrição e Propósito
 
